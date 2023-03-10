@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-net --allow-env --allow-read ./src/index.js"
+  },
+  "imports": {
+    "date-fns": "npm:date-fns@2.29.3",
+    "dotenv": "https://deno.land/std@0.179.0/dotenv/load.ts",
+    "xmlrpc-promise": "npm:xmlrpc-promise@0.0.2" 
+  }
+}
