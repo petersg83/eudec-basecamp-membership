@@ -5,6 +5,8 @@
   "imports": {
     "date-fns": "npm:date-fns@2.29.3",
     "dotenv": "https://deno.land/std@0.179.0/dotenv/load.ts",
-    "xmlrpc-promise": "npm:xmlrpc-promise@0.0.2" 
+    "mysql": "https://deno.land/x/mysql@v2.11.0/mod.ts",
+    "xmlrpc-promise": "npm:xmlrpc-promise@0.0.2",
+    "testing": "https://deno.land/std@0.179.0/testing/asserts.ts"
   }
 }

@@ -5,6 +5,13 @@ const BATCH_SIZE = 100;
 
 const { db, email, password, endpoint } = config.odoo;
 
+const formatMember = (member) => ({
+  name: member.name,
+  emails: [member.email, member.email_normalized],
+});
+
+const formatMembers = (members) => members.map(formatMember);
+
 export const getUpToDateMembers = async (date) => {
   const upToDateMembers = [];
 
@@ -32,5 +39,5 @@ export const getUpToDateMembers = async (date) => {
     offset += BATCH_SIZE;
   }
 
-  return upToDateMembers;
+  return formatMembers(upToDateMembers);
 };
