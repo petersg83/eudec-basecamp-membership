@@ -34,11 +34,11 @@
     "https://deno.land/std@0.179.0/collections/without_all.ts": "a89f5da0b5830defed4f59666e188df411d8fece35a5f6ca69be6ca71a95c185",
     "https://deno.land/std@0.179.0/dotenv/load.ts": "0636983549b98f29ab75c9a22a42d9723f0a389ece5498fe971e7bb2556a12e2",
     "https://deno.land/std@0.179.0/dotenv/mod.ts": "8dcbc8a40b896a0bf094582aaeadbfc76d3528872faf2efc0302beb1d2f6afd0",
-    "https://deno.land/std@0.179.0/fmt/colors.ts": "938c5d44d889fb82eff6c358bea8baa7e85950a16c9f6dae3ec3a7a729164471",
-    "https://deno.land/std@0.179.0/testing/_diff.ts": "1a3c044aedf77647d6cac86b798c6417603361b66b54c53331b312caeb447aea",
-    "https://deno.land/std@0.179.0/testing/_format.ts": "a69126e8a469009adf4cf2a50af889aca364c349797e63174884a52ff75cf4c7",
-    "https://deno.land/std@0.179.0/testing/asserts.ts": "984ab0bfb3faeed92ffaa3a6b06536c66811185328c5dd146257c702c41b01ab",
     "https://deno.land/std@0.77.0/fmt/colors.ts": "c5665c66f1a67228f21c5989bbb04b36d369b98dd7ceac06f5e26856c81c2531",
+    "https://deno.land/x/axiod@0.26.2/helpers.ts": "467f2ca75608f368c8092e800eab0d6d79b3fa42346372be62a5b93acf50fe7e",
+    "https://deno.land/x/axiod@0.26.2/interfaces.ts": "1b5a7b70b1e7faecd2f251ad080bd87188fba585e2de667af472c4d72abf636e",
+    "https://deno.land/x/axiod@0.26.2/mod.ts": "1175ec90a040d764b9940753f8d8e3f37a2328a0536eed48e411a8f1a3e9e5cb",
+    "https://deno.land/x/axiod@0.26.2/mods/url-join.ts": "c925b2dd0bd490093d084bd4c74a9502260e014d5e760a4951b3e7c8ab3ca43f",
     "https://deno.land/x/bytes_formater@v1.4.0/deps.ts": "4f98f74e21145423b873a5ca6ead66dc3e674fa81e230a0a395f9b86aafeceea",
     "https://deno.land/x/bytes_formater@v1.4.0/format.ts": "657c41b9f180c3ed0f934dcf75f77b09b6a610be98bb07525bffe2acfd5af4d5",
     "https://deno.land/x/bytes_formater@v1.4.0/mod.ts": "c6bf35303f53d74e9134eb13f666fb388fb4c62c6b12b17542bbadade250a864",
@@ -67,13 +67,14 @@
     "https://deno.land/x/mysql@v2.11.0/src/packets/parsers/result.ts": "8ab16f1adae67415eefcc17803b0eb828c1f4c6a24c55f25949f418e862d3ec8",
     "https://deno.land/x/mysql@v2.11.0/src/pool.ts": "978ba2813b3886d68be007678360ad43c54dab14b1aea1c07fcdb41222fcc432",
     "https://deno.land/x/mysql@v2.11.0/src/util.ts": "83d38e87cc3901da00ac44bfcd53c0e8d24525262f5c7647c912dccf3ed2dbb5",
-    "https://deno.land/x/sql_builder@v1.9.1/util.ts": "b9855dc435972704cf82655019f4ec168ac83550ab4db596c5f6b6d201466384"
+    "https://deno.land/x/sql_builder@v1.9.1/util.ts": "b9855dc435972704cf82655019f4ec168ac83550ab4db596c5f6b6d201466384",
+    "https://deno.land/x/url_join@1.0.0/mod.ts": "d3c7007e3ab15594e54d5b90dce623b3e274a726e0cdf57858e7ecab77a0166c"
   },
   "npm": {
     "specifiers": {
       "date-fns@2.29.3": "date-fns@2.29.3",
-      "xmlrpc-promise@0.0.2": "xmlrpc-promise@0.0.2",
-      "xmlrpc@1.3.2": "xmlrpc@1.3.2"
+      "lodash@4.17.21": "lodash@4.17.21",
+      "xmlrpc-promise@0.0.2": "xmlrpc-promise@0.0.2"
     },
     "packages": {
       "bluebird@2.11.0": {
@@ -82,6 +83,10 @@
       },
       "date-fns@2.29.3": {
         "integrity": "sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==",
+        "dependencies": {}
+      },
+      "lodash@4.17.21": {
+        "integrity": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
         "dependencies": {}
       },
       "sax@1.2.4": {

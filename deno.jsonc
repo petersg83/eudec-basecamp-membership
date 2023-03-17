@@ -3,10 +3,12 @@
     "dev": "deno run --watch --allow-net --allow-env --allow-read ./src/index.js"
   },
   "imports": {
+    "axiod": "https://deno.land/x/axiod@0.26.2/mod.ts",
     "date-fns": "npm:date-fns@2.29.3",
     "dotenv": "https://deno.land/std@0.179.0/dotenv/load.ts",
+    "lodash/fp": "npm:lodash@4.17.21/fp.js",
     "mysql": "https://deno.land/x/mysql@v2.11.0/mod.ts",
-    "xmlrpc-promise": "npm:xmlrpc-promise@0.0.2",
-    "testing": "https://deno.land/std@0.179.0/testing/asserts.ts"
+    "testing": "https://deno.land/std@0.179.0/testing/asserts.ts",
+    "xmlrpc-promise": "npm:xmlrpc-promise@0.0.2"
   }
 }

@@ -1,5 +1,5 @@
-import { Client } from "mysql";
-import { isAfter, isBefore } from "date-fns";
+import { Client } from 'mysql';
+import { isAfter, isBefore } from 'date-fns';
 import config from '../config.js';
 
 const { db, user, password, host } = config.france;
